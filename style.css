@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+    width: 100vw;
+    padding: 2rem;
+}
+
+.parent-box{
+    width: 500px;
+    height: 1000px;
+    background: red;
+    padding: 1rem;
+}
+.child-box-1{
+    position: relative;
+    top: 100px;
+    right: 50px;
+
+    width: 250px;
+    height: 250px;
+    background: yellow;
+}
+.child-box-2{
+    width: 250px;
+    height: 250px;
+    background: blue;
+}
+.father-box{
+    position: relative;
+    margin-top: 10px;
+
+    width: 500px;
+    height: 700px;
+    background: black;
+    padding: 1rem;
+}
+.child-box-3{
+    position: absolute;
+    left: 0;
+    margin-top: 50px;
+
+    width: 250px;
+    height: 250px;
+    background: yellow;
+}
+.child-box-4{
+    width: 250px;
+    height: 250px;
+    background: blue;
+}
+.mother-box{
+    position: relative;
+    margin-top: 10px;
+
+    width: 500px;
+    height: 700px;
+    background: brown;
+    padding: 1rem;
+}
+.child-box-5{
+    position: absolute;
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    background: blue;
+}
+.child-box-6{
+    width: 250px;
+    height: 250px;
+    background: yellow;
+}
+
+.mother-box2{
+    margin-top: 20px;
+}
+.child-box-7{
+    position: absolute;
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    background: blue;
+}
+.child-box-8{
+    width: 250px;
+    height: 250px;
+    background: yellow;
+
+    position: relative;
+    z-index: 1;
+}
+.son-box{
+    width: 500px;
+    height: 700px;
+    background: grey;
+    padding: 1rem; 
+    margin-top: 10px;
+}
+.child-box-9{
+    width: 250px;
+    height: 250px;
+    background-color: blue
+}
+.child-box-10{
+position: fixed;
+right: 0;
+top: 100px;
+padding-top: 20px;
+
+width: 250px;
+height: 250px;
+background-color: yellow;
+}
+.daughter-box{
+    width: 500px;
+    height: 3000px;
+    background: pink;
+    padding: 1rem; 
+    margin-top: 10px;
+}
+.child-box-11{
+    width: 250px;
+    height: 250px;
+    background-color: blue
+}
+.child-box-12{
+position: sticky;
+top: 0;
+
+width: 250px;
+height: 250px;
+background-color: yellow;
+}
